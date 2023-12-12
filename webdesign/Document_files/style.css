@@ -1,0 +1,85 @@
+		@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+        * {
+            margin-left: 0px;
+            padding: ;
+        }
+        header{
+            position: fixed;
+            margin-left: 66px;
+		}
+        body {
+            background-color: #0F0F0F;
+        	color: white;
+        	font-family: Michroma ;
+            margin: 
+        }
+        .head {
+            border: 1px solid #0F0F0F;
+            background-image : url('img/main1.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: auto;
+            height: 100vh;
+        }
+       h1 {
+            font-size: 70px;
+            font-weight: 900;
+            margin-top: 100px;
+            letter-spacing: 3px;
+            margin-left: 66px;
+       }
+       button {
+            width: 338px;
+            height: 77px;
+            border: 2px solid white;
+            background-color: transparent;
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 60px;
+            font-weight: 900;
+            text-align: right;
+            margin-top: 100px;
+            margin-right: 66px;
+
+        }
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 66px
+}
+.container img{
+
+}
+.text {
+    margin-left: 99px;
+    margin-right: 66px; 
+}
+ p {
+    margin-bottom: 16px
+
+ }
+ .containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.image-row {
+    border: 1px solid red;
+    display: flex;
+    margin-bottom: 20px;
+}
+.image-row img {
+
+}
+.text-row {
+    border: 1px solid red;
+    display: flex;
+    max-height: 40px;
+}

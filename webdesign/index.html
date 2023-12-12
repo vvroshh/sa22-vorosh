@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <script>
+function toggleBurgerMenu() {
+    var burgerMenuItems = document.querySelectorAll('.burger a');
+    burgerMenuItems.forEach(function (item) {
+        item.style.visibility = (item.style.visibility === 'visible') ? 'hidden' : 'visible';
+    });
+}
+    </script>
+	<header>
+		<div class="headerimg">
+			<img src="img\rfromr.png" width="230px">
+			<div class="burger">
+				<img src="img\3palku.png" width="45px" onclick="toggleBurgerMenu()">
+				<a href="#main">main</a>
+				<a href="#about">about us</a>
+				<a href="#merch">merch</a>
+				<a href="#charity">charity</a>
+		</div>
+		</div>
+	</header>
+
+
+	<main id="main">
+		<section class="head">
+			<h1 class="align"> RUNNING from RESPONSIBILITY</h1>
+			<p >comunity of runners in Ukraine</p>
+			<button>Join</button>
+		</section>
+
+		<section class="no-margin">	
+			<h2 id="about">ABOUT US</h2>
+			<div class="container">
+				<div class="image">
+					<img src="img/aboutus.jpg">
+					<video loop autoplay muted>
+						<source src="img/video.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="mob"> 
+					<p>In the heart of every city a dynamic community of runners comes together, bound by a shared love for pounding pavement and conquering trails.</p>
+					<p>These individuals form a tapestry of diverse backgrounds, ages, and experiences, united by their passion for the sport.</p>
+					<p style="color: #9E413E">read more</p>
+				</div>
+				<div class="text">
+					<p>In the heart of every city a dynamic community of runners comes together, bound by a shared love for pounding pavement and conquering trails.</p>
+					<p>These individuals form a tapestry of diverse backgrounds, ages, and experiences, united by their passion for the sport.</p>
+					<p>The community of runners is more than just a group of like-minded individuals; it's a support system, a source of camaraderie, and a platform for personal growth. </p>
+					<p>Through organized races, impromptu group runs, and online forums, runners come together to celebrate achievements, share advice, and lift each other up during setbacks.</p>
+					<p>We think that there aren’t any possibility to live without responsibility. </p>
+					<p>So let’s run from it together!</p>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h2 id="merch">MERCH</h2>
+			<div class="containerr">
+				<div class="image-row">
+					<div>
+						<img src="img/merchtshirt.png" width="330">	
+					</div>
+					<img src="img/merchcap.png" width="358">
+				</div>
+			<div class="text-row">
+				<div>
+					<p>T-shirt</p>
+					<p>49$</p>
+				</div>
+				<div>
+					<p>Cap</p>
+					<p>29$</p>
+				</div>
+			</div>
+		</div>
+			<div class="mobmerch">
+				<img src="img/merchtshirt.png" width="330">
+				<p>T-shirt</p>
+				<p>49$</p>
+				<img src="img/merchcap.png" width="358">
+				<p>Cap</p>
+				<p>29$</p>
+			</div>	
+		</section>
+
+		<h2 id="charity">CHARITY</h2>
+
+		<section style="margin-top: 70px">
+			<div class="container">
+				<div class="image1">
+					<img src="img/charity.jpg">
+				</div>
+					<div class="mob"> 
+						<p>We have a great tradition to  conduct charity run every month. As  you know, it is necessary to support  a lot of organisation of volunteers to make our victory come faster. </p>
+						<p>For all 6 month we have donated more than 20 000$ and we won’t stop! </p>
+						<p style="color: #9E413E">read more</p>
+					</div>
+				<div class="text">
+					<div>
+						<p>We have a great tradition to  conduct charity run every month. As  you know, it is necessary to support  a lot of organisation of volunteers to make our victory come faster. </p>
+						<p>For all 6 month we have donated more than 20 000$ and we won’t stop! </p>
+						<p>So this month charity run we are going to conduct in Lviv on September 30th. If you are in town,  you’ll be able to support Ukraine) </p>
+						<p>Let’s make this world better together!</p>
+						<button>Join</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="prices">
+			<table>
+				<tr><th>Basic</th></tr>
+				<tr><td><hr>Limited access to Community</td></tr>
+				<tr><td><hr>Weekly Group Runs</td></tr>
+				<tr><td><hr>No training Plans</td></tr>
+				<tr><td><hr>No virtual Challenges</td></tr>
+				<tr><td><hr>5$ Monthly</td></tr>
+				<tr><td><hr><button>Apply</button></td></tr>
+			</table>
+
+			<table>
+				<tr><th>Standart</th></tr>
+				<tr><td><hr>Full access to Community</td></tr>
+				<tr><td><hr>Weekly Group Runs</td></tr>
+				<tr><td><hr>Training Plans</td></tr>
+				<tr><td><hr>No virtual Challenges</td></tr>
+				<tr><td><hr>15$ Monthly</td></tr>
+				<tr><td><hr><button>Apply</button></td></tr>
+			</table>
+			
+			<table>
+				<tr><th>Premium</th></tr>
+				<tr><td><hr>Full access to Community</td></tr>
+				<tr><td><hr>Weekly Group Runs</td></tr>
+				<tr><td><hr>Training Plans</td></tr>
+				<tr><td><hr>Virtual Challenges</td></tr>
+				<tr><td><hr>20$ Monthly</td></tr>
+				<tr><td><hr><button>Apply</button></td></tr>
+			</table>
+		</section>
+
+		<section class="contacts">
+			<h1>Contact us!</h1>
+			<form action="">
+				<input type="text" placeholder="Your name">
+				<input type="text" placeholder="Your phone number">
+				<textarea rows="4" placeholder="What you'd like to share?"></textarea>
+				<button>Send</button>
+			</form>
+		</section>
+
+	</main>
+
+	<footer class="oy">
+		<h2 style="margin-bottom: 60px ">CONTACT US</h2>
+		<div class="contact">
+			<div class="contact">
+				<img src="img\telegram (1).png" width="55">
+				<p>telegram</p>
+				<p>@rfromr</p>
+			</div>
+			<div class="contact">
+				<img src="img/instagram (1).png" width="55" height="55px">
+				<p>instagram</p>
+				<p>@_r_from_r_</p>
+			</div>
+		</div>
+		<div class="contact">
+			<div class="contact">	
+				<img src="img/facebook.png" width="55">
+				<p>facebook</p>
+				<p>RfromR</p>
+			</div>	
+			<div class="contact">
+				<img src="img/phone-call.png" width="55" height="55px">
+				<p>phone</p>
+				<p>0737588850</p>
+			</div>
+	</footer>	
+	
+</body>
+</html>

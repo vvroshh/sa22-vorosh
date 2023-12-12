@@ -1,0 +1,11 @@
+p{
+	color: ;
+	padding: 20px;
+}
+div{
+			display: flex;
+			justify-content: flex-end;
+		}
+.head {
+	             background-image: url('img/main.png');
+}
